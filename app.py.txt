@@ -1,0 +1,8 @@
+﻿import sys
+import os
+
+# Agrega la carpeta del motor de PyArmor al sistema para que Linux la encuentre
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+
+# Importa y ejecuta tu verdadero software encriptado
+import vickers_protegido
